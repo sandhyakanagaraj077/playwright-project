@@ -1,0 +1,7 @@
+{
+  "myInfoMenu": "//span[text()='My Info']",
+  "genderRadio": "(//input[@type='radio'])[2]",
+  "maritalStatusDropdown": "//label[text()='Marital Status']/parent::div/following-sibling::div//div[@class='oxd-select-text-input']",
+  "maritalStatusOption": "//div[@role='listbox']//span[normalize-space()='${value}']",
+  "saveButton": "(//button[@type='submit'])[2]"
+}

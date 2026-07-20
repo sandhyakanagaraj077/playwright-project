@@ -1,0 +1,62 @@
+{
+  "testCase": {
+    "name": "Update My Info - Gender and Marital Status",
+    "testCaseId": "TC-003",
+    "priority": "high",
+    "description": "Update gender using radio button and marital status using custom dropdown",
+    "suite": "sanity",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "stepDescription": "Launch the application",
+        "action": "LAUNCH",
+        "locator": null,
+        "data": "URL"
+      },
+      {
+        "stepNumber": 2,
+        "stepDescription": "Enter Username",
+        "action": "INPUT",
+        "locator": "username",
+        "data": "username"
+      },
+      {
+        "stepNumber": 3,
+        "stepDescription": "Enter Password",
+        "action": "INPUT",
+        "locator": "password",
+        "data": "password"
+      },
+      {
+        "stepNumber": 4,
+        "stepDescription": "Click Login Button",
+        "action": "CLICK",
+        "locator": "loginButton",
+        "data": null
+      },
+      {
+        "stepNumber": 5,
+        "stepDescription": "Click on My Info menu",
+        "action": "CLICK",
+        "locator": "myInfoMenu",
+        "data": null
+      },
+
+      {
+        "stepNumber": 6,
+        "stepDescription": "Open marital status dropdown",
+        "action": "DROPDOWN_SELECT",
+        "locator": "maritalStatusDropdown",
+        "optionLocator": "maritalStatusOption",
+        "data": "maritalStatus"
+      },
+      {
+        "stepNumber": 7,
+        "stepDescription": "Click Save button",
+        "action": "CLICK",
+        "locator": "saveButton",
+        "data": null
+      }
+    ]
+  }
+}

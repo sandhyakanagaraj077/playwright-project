@@ -1,0 +1,67 @@
+{
+  "testCase": {
+    "name": "Search Admin User",
+    "testCaseId": "TC-004",
+    "priority": "high",
+    "description": "Login and filter users by role",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "stepDescription": "Launch Application",
+        "action": "LAUNCH",
+        "locator": null,
+        "data": "URL"
+      },
+      {
+        "stepNumber": 2,
+        "stepDescription": "Enter Username",
+        "action": "INPUT",
+        "locator": "username",
+        "data": "username"
+      },
+      {
+        "stepNumber": 3,
+        "stepDescription": "Enter Password",
+        "action": "INPUT",
+        "locator": "password",
+        "data": "password"
+      },
+      {
+        "stepNumber": 4,
+        "stepDescription": "Click Login",
+        "action": "CLICK",
+        "locator": "loginButton",
+        "data": null
+      },
+      {
+        "stepNumber": 5,
+        "stepDescription": "Navigate to Admin Module",
+        "action": "CLICK",
+        "locator": "adminModuleLink",
+        "data": null
+      },
+      {
+        "stepNumber": 6,
+        "stepDescription": "Select Admin Role",
+        "action": "DROPDOWN_SELECT",
+        "locator": "userRoleDropdown",
+        "optionLocator": "userDropdownOption",
+        "data": "Admin"
+      },
+      {
+        "stepNumber": 7,
+        "stepDescription": "Click on Search Button",
+        "action": "CLICK",
+        "locator": "searchButton",
+        "data": null
+      },
+      {
+        "stepNumber": 8,
+        "stepDescription": "Verify 'Admin' user is displayed in results",
+        "action": "ASSERT",
+        "locator": "resultTable",
+        "data": "Admin"
+      }
+    ]
+  }
+}

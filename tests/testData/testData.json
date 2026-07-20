@@ -1,0 +1,18 @@
+{
+    "URL": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+    "username": "Admin",
+    "password": "admin123",
+    "invalidUsername": "Admin123",
+    "invalidPassword": "wrongPassword",
+    "invalidLoginMessage": "Invalid credentials",
+    "searchName": "John",
+    "firstName": "Joe",
+    "lastName": "Drole",
+    "jobTitle": "Software Engineer",
+    "photoPath": "C:/Users/CSS171618/Downloads/Playwright/tests/uploads/images.jpg",
+    "gender": "Female",
+    "maritalStatus": "Single",
+    "adminRoleText": "Admin",
+    "statusEnabledText": "Enabled",
+    "Admin": "Admin"
+  }

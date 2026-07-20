@@ -1,0 +1,13 @@
+{
+  "pimMenu": "(//ul[@class='oxd-main-menu']/li)[2]",
+  "pimHeader": "//h6[text()='PIM']",
+  "userDropdown": ".oxd-userdropdown-name",
+  "logoutLink": "a[href*='logout']",
+  "addEmployeeMenu": "//button[@class='oxd-button oxd-button--medium oxd-button--secondary']",
+  "employeeID" :"(//input[@class='oxd-input oxd-input--active'])[2]",
+  "firstName": "input[name='firstName']",
+  "lastName": "input[name='lastName']",
+  "photoUpload": "input[type='file']",
+  "saveBtn": "button:has-text('Save')",
+  "profileName": "//div[@class='orangehrm-edit-employee-name']/h6"
+}

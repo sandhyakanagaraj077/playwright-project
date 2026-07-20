@@ -1,0 +1,58 @@
+{
+ "auth": {
+   "headers": {
+     "x-api-key": "c7f5ff16-87ba-4486-89e4-c3d015c700d7"
+   }
+ },
+ "get": {
+   "method": "GET",
+   "url": "https://api.restful-api.dev/objects",
+   "name" : "Google Pixel 6 Pro"
+ },
+ "post": {
+   "method": "POST",
+   "url": "https://api.restful-api.dev/objects",
+   "payload": {
+     "name": "Apple MacBook Pro 16",
+     "data": {
+       "year": 2019,
+       "price": 1849.99,
+       "CPU model": "Intel Core i9",
+       "Hard disk size": "1 TB"
+     }
+   }
+ },
+ "put": {
+   "method": "PUT",
+   "url": "https://api.restful-api.dev/objects",
+   "payload": {
+     "name": "Apple MacBook Pro Updated",
+     "data": {
+       "year": 2020,
+       "price": 1999,
+       "CPU model": "Intel Core i9",
+       "Hard disk size": "2 TB"
+     }
+   }
+ },
+ "delete": {
+   "method": "DELETE",
+   "url": "https://api.restful-api.dev/objects"
+ },
+ "negative": {
+    "Invaild payload validation": {
+      "method": "POST",
+      "url": "https://api.restful-api.dev/objects"
+     
+    },
+    "Forbidden Access Validation": {
+      "method": "GET",
+      "url": "https://httpbin.org/status/403"
+    },
+    "Unsupported Method Validation": {
+      "method": "PUT",
+      "url": "https://api.restful-api.dev/objects"
+   }
+  }
+}
+ 

@@ -1,0 +1,59 @@
+{
+
+  "get": {
+    "method": "GET",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit"
+
+  },
+
+  "post": {
+    "method": "POST",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "payload": {
+      "title": "Playwright API Test",
+      "body": "Automation Framework Example",
+      "userId": 1
+
+    }
+
+  },
+
+  "put": {
+    "method": "PUT",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "payload": {
+      "title": "Updated Title"
+
+    }
+
+  },
+
+  "delete": {
+    "method": "DELETE",
+    "url": "https://jsonplaceholder.typicode.com/posts"
+
+  },
+
+  "negative": {
+ "Bad Request 400": {
+   "method": "GET",
+   "url": "https://httpbin.org/status/400"
+ },
+ "Forbidden 403": {
+   "method": "GET",
+   "url": "https://httpbin.org/status/403"
+ },
+ "Not Found 404": {
+   "method": "GET",
+   "url": "https://httpbin.org/status/404"
+ },
+ "Server Error 500": {
+   "method": "GET",
+   "url": "https://httpbin.org/status/500"
+ }
+ }
+  }
+
+
+ 

@@ -1,0 +1,38 @@
+{
+  "testCase": {
+    "name": "Login to the application",
+    "testCaseId": "TC-005",
+    "priority": "high",
+    "description": "Login to the application",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "stepDescription": "Enter the URL",
+        "action": "LAUNCH",
+        "locator": null,
+        "data": "URL"
+      },
+      {
+        "stepNumber": 2,
+        "stepDescription": "Enter the Username",
+        "action": "INPUT",
+        "locator": "username",
+        "data": "username"
+      },
+      {
+        "stepNumber": 3,
+        "stepDescription": "Enter the Password",
+        "action": "INPUT",
+        "locator": "password",
+        "data": "password"
+      },
+      {
+        "stepNumber": 4,
+        "stepDescription": "Click on the Login Button",
+        "action": "CLICK",
+        "locator": "loginButton",
+        "data": null
+      }
+    ]
+  }
+}

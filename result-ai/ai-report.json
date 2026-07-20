@@ -1,0 +1,11 @@
+{
+  "TestcaseResult": [
+    {
+      "name": "Logout from the application",
+      "testcaseid": "TC-006",
+      "Priority": "high",
+      "stauts": "pass",
+      "timing": "24.3s"
+    }
+  ]
+}

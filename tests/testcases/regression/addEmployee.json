@@ -1,0 +1,89 @@
+{
+  "testCase": {
+    "name": "Add employee with valid details and upload photo",
+    "testCaseId" : "TC-001",
+    "priority":"high",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "stepDescription": "Launch the application",
+        "action": "LAUNCH",
+        "locator": null,
+        "data": "URL"
+      },
+      {
+        "stepNumber": 2,
+        "stepDescription": "Enter Username",
+        "action": "INPUT",
+        "locator": "username",
+        "data": "username"
+      },
+      {
+        "stepNumber": 3,
+        "stepDescription": "Enter Password",
+        "action": "INPUT",
+        "locator": "password",
+        "data": "password"
+      },
+      {
+        "stepNumber": 4,
+        "stepDescription": "Click Login Button",
+        "action": "CLICK",
+        "locator": "loginButton",
+        "data": null
+      },
+
+      {
+        "stepNumber": 5,
+        "stepDescription": "Click over PIM Menu",
+        "action": "CLICK",
+        "locator": "pimMenu",
+        "data": null
+      },
+      {
+        "stepNumber": 6,
+        "stepDescription": "Click Add Employee Menu",
+        "action": "CLICK",
+        "locator": "addEmployeeMenu",
+        "data": null
+      },
+
+      {
+        "stepNumber": 7,
+        "stepDescription": "Enter First Name",
+        "action": "INPUT",
+        "locator": "firstName",
+        "data": "firstName"
+      },
+      {
+        "stepNumber": 8,
+        "stepDescription": "Enter Last Name",
+        "action": "INPUT",
+        "locator": "lastName",
+        "data": "lastName"
+      },
+      {
+        "stepNumber": 9,
+        "stepDescription": "Upload Photo",
+        "action": "UPLOAD",
+        "locator": "photoUpload",
+        "data": "photoPath"
+      },
+      {
+        "stepNumber": 10,
+        "stepDescription": "Enter Employee Id",
+        "action": "INPUT",
+        "locator": "employeeID",
+        "data": "EmpID"
+      },
+
+      {
+        "stepNumber": 11,
+        "stepDescription": "Click Save Button",
+        "action": "CLICK",
+        "locator": "saveBtn"
+      }
+      
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "adminMenu": "//span[text()='Admin']",
+  "adminHeader": "//h6[text()='Admin']",
+  "userDropdown": ".oxd-userdropdown-name",
+  "logoutLink": "(//a[@class='oxd-userdropdown-link'])[4]",
+  "adminModuleLink": "xpath=//span[text()='Admin']",
+  "userRoleDropdown": "xpath=//label[text()='User Role']/parent::div/following-sibling::div",
+  "userDropdownOption": ".oxd-select-dropdown",
+  "searchButton": "button[type='submit']",
+  "resultTable": ".oxd-table-body",
+  "firstResultRow": ".oxd-table-card >> nth=0"
+}

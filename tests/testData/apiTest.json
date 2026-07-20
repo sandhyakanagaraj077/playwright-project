@@ -1,0 +1,65 @@
+{
+
+  "get": {
+    "method": "GET",
+    "url": "https://reqres.in/api/users?page=2"
+
+  },
+
+  "post": {
+    "method": "POST",
+    "url": "https://reqres.in/api/users",
+    "payload": {
+      "name": "Playwright User",
+      "job": "Automation Tester"
+
+    }
+
+  },
+
+  "put": {
+    "method": "PUT",
+    "url": "https://reqres.in/api/users",
+    "payload": {
+      "name": "Updated User",
+      "job": "Senior Tester"
+
+    }
+
+  },
+
+  "delete": {
+    "method": "DELETE",
+    "url": "https://reqres.in/api/users"
+
+  },
+
+  "negative": {
+    "Bad Request 400": {
+      "method": "GET",
+      "url": "https://httpbin.org/status/400"
+
+    },
+
+    "Forbidden 403": {
+      "method": "GET",
+      "url": "https://httpbin.org/status/403"
+
+    },
+
+    "Not Found 404": {
+      "method": "GET",
+      "url": "https://reqres.in/api/unknown/23"
+
+    },
+
+    "Server Error 500": {
+      "method": "GET",
+      "url": "https://httpbin.org/status/500"
+
+    }
+
+  }
+
+}
+ 
