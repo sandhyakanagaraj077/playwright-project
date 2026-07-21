@@ -19,7 +19,7 @@ async function runTest(page, testCaseJson) {
   }
 }
 
-test('Login to the application @smoke', async ({ page }) => {
+test.only('Login to the application @smoke', async ({ page }) => {
   await runTest(page, login);
 });
 
